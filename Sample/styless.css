@@ -1,0 +1,97 @@
+* {
+    padding:0px;
+    margin: 0px;
+}
+img {
+    height: 800px;
+    width: 1250px;
+}
+.main {
+    color: white;
+}
+.task-new {
+    background-color: rgb(101, 125, 232);
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    right: 800px;
+    padding: 30px;
+    width:400px;
+}
+.task-new2 {
+    max-height: 250px;
+}
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(62, 33, 124);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+.button-link:hover {
+    background-color: white;
+    color: rgb(33 145 112);
+}
+.side {
+    background-color: rgb(101, 125, 232);
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 970px;
+    padding: 20px;
+    border-right: 0px;
+    right: 0px;
+}
+.side p {
+    padding-right: 25px;
+}
+.task-main {
+    background-color: #6060fd;
+    color: white;
+    margin: auto;
+    max-width: 350px;
+    padding: 50px;
+}
+.div-task {
+    padding-top: 50px;
+}
+.task-main h1,p {
+    padding: 10px;
+}
+ul.icon-list {
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul.icon-list li:before {
+
+
+    margin-right: 10px;
+    margin-left: 10px;
+    color: orange;
+}
+.icon-list li {
+    padding: 10px;
+}
+.button-link-task {
+    display: inline-block;
+    padding: 7px 15px;
+    background-color: rgb(240, 135, 96);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+
+
+
+
+

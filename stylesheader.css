@@ -1,0 +1,151 @@
+.top{
+    padding-top: 0%;
+    margin-bottom: 0px;
+  }
+
+  .top__logo{
+    height: 60px ; width: 120px; margin-left: 25px;position:absolute;top: 6px;left:14px
+    ;
+
+  }
+
+  #tophr{
+    width: 1170px;
+    margin-left: 35px;
+    color: #b9b5b5;
+  }
+
+
+
+  .top__search
+  {
+    padding-left: 280px;
+  }
+
+  .top__account{
+    height: 25px ; width: 25px; padding-left: 100px;
+  }
+
+  .top__wish{
+    height: 25px ; width: 25px;
+  }
+
+  .top__cart{
+    height: 25px ; width: 25px;
+  }
+
+  .cart{
+    position: absolute;
+    right: 32px;
+    top:20px;
+  }
+
+  #cart1{
+    position: absolute;
+    right: 33px;
+    top:47px;
+    font-size: 14px;
+  }
+
+  .whish{
+    position: absolute;
+    right: 110px;
+    top:25px;
+
+  }
+
+  #whish1{
+    position: absolute;
+    right: 88px;
+    top:47px;
+    font-size: 14px;
+  }
+
+  .user{
+    position: absolute;
+    right: 180px;
+    top:25px;
+  }
+
+  #user1{
+    position: absolute;
+    right: 168px;
+    top:47px;
+    font-size: 14px;
+  }
+
+  .indoor{
+    text-decoration: none; color: black;
+  }
+
+
+  .dropdown{
+    margin-left: 25px;
+    padding-top:0px ;
+  }
+
+
+  .dropdown ul {
+
+      margin: 0;
+      padding: 0;
+    }
+
+    .dropdown ul {
+
+      margin: 0;
+      padding: 0;
+      font-family: 'Source Sans Pro', sans-serif;
+
+    }
+
+    .dropdown ul li a:hover{
+        color:green;
+    }
+
+
+    .dropdown ul li {
+      display: inline-block;
+      position: relative;
+    }
+
+    .dropdown ul li a {
+      display: block;
+      padding: 10px 20px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .dropdown ul li:hover > a {
+      background-color: #f2f2f2;
+    }
+
+    .dropdown ul li:hover .dropdown__content {
+      display: block;
+    }
+
+    .dropdown .dropdown__content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown .dropdown__content li {
+      display: block;
+    }
+
+    .dropdown .dropdown__content li a {
+      padding: 10px 20px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .dropdown .dropdown__content li a:hover {
+      background-color: #f2f2f2;
+    }
+
+
+

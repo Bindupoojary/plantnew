@@ -1,0 +1,129 @@
+
+
+.footr{
+    background-image: url('/footerbnr.avif');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 1300px; width: 1200px;
+
+        }
+
+.footr__main{
+  padding: 110px;padding-top: 5px;
+}
+
+.footr__main--tbl{
+  margin-bottom: 8px;
+}
+
+.footrdata1{
+  letter-spacing: 1.2px; color: #6B6B6B; font-size: 14px;
+}
+
+#ftrlogo{
+  height: 100px ; width: 200px; padding-top: 2px;
+}
+
+#ftrdesc{
+  width:493px;
+  font-size: 13.5px;
+  letter-spacing: 1.3px;color: #787373;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 2;
+
+}
+
+.footrdata2{
+
+}
+
+#follwus{
+  font-size: 16px;font-weight: bold; font-family: 'Lato', sans-serif; padding-left: 12px;
+}
+
+#fbfootr{
+  padding: 5px;
+}
+
+#footrfb{
+  height: 30px; width: 30px;
+}
+
+#footrig{
+  height: 30px; width: 30px;
+}
+
+.footdata2{
+  font-size: 23px;
+                     letter-spacing: .5px;
+                    color: #0A5C33;
+                    font-weight: 800;
+                    font-family: 'Lato', sans-serif;
+                    text-transform: uppercase;
+}
+
+#hr{
+  width: 1000px;position: absolute;bottom: 110px;
+}
+
+#hr1{
+  width: 1000px;position: absolute;bottom: 690px;
+}
+
+#mn{
+  color: #0A5C33;
+  font-size: 22px;
+
+  font-family: 'Lato', sans-serif;
+}
+
+.footdata2__sub{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;color: #787373;
+}
+
+.footdata2__sub a{
+  text-decoration: none;
+  letter-spacing: 1px;color: #787373;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.contain{
+  display:flex
+}
+
+.div1,.div2,.div3{
+  flex: 1;
+}
+
+.contain{
+  display:flex
+}
+
+.div1,.div2,.div3{
+  flex: 1;
+}
+
+
+.footr-a{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        }
+
+
+        #tophr{
+          width: 1130px;
+          margin-left: 35px;
+          color: #b9b5b5;
+        }

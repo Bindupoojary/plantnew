@@ -1,0 +1,15 @@
+.side{
+    margin-right: 0; height:100px; width:200px; background-color: blue; position:absolute;color:white; top:30%;   right:0%
+}
+
+.main{
+    margin-left: 10px;
+}
+
+.div-data{
+    height:400px; width:400px; background-color: blue; position:absolute;color:white;  padding-left: 20px; top:30%
+}
+
+.div-learn{
+    height:400px; width:400px; background-color: blue; position:absolute;color:white;  padding-left: 20px; top:30%
+}

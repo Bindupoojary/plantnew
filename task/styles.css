@@ -1,0 +1,96 @@
+* {
+    padding:0px;
+    margin: 0px;
+}
+img {
+    height: 741px;
+    width: 1536px;
+}
+.div-main {
+    color: white;
+}
+.task-one {
+    background-color: rgb(33 145 112);
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    right: 1100px;
+    padding: 30px;
+}
+.task-two {
+    max-height: 200px;
+}
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(33 124 99);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+.button-link:hover {
+    background-color: white;
+    color: rgb(33 145 112);
+}
+.div-side {
+    background-color: rgb(33 145 112);
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 1300px;
+    padding: 20px;
+    border-right: 0px;
+    right: 0px;
+}
+.div-side p {
+    padding-right: 25px;
+}
+.task-main {
+    background-color: #1111b2;
+    color: white;
+    margin: auto;
+    max-width: 350px;
+    padding: 50px;
+}
+.div-task {
+    padding-top: 50px;
+}
+.task-main h1,p {
+    padding: 10px;
+}
+ul.icon-list {
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul.icon-list li:before {
+    content: "\f046";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+    margin-left: 10px;
+    color: orange;
+}
+.icon-list li {
+    padding: 10px;
+}
+.button-link-task {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+
+
+
+
+

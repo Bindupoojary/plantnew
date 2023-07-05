@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tour tip</title>
+<link rel="icon" type="image/x-icon" href="images/favicon1.jpg">
+</head>
+<body>
+    <style>
+        .para-one {
+            text-align: right;
+            text-decoration: underline;
+            text-transform: uppercase;
+            border-style: solid;
+        }
+        .para-two {
+            color: blueviolet;
+            border-style: dotted;
+            border-color: aqua;
+        }
+        .para-three {
+            background-color: cadetblue;
+        }
+        .side-link {
+            color: rgb(255, 98, 0);
+            text-decoration: none;
+        }
+        .link1 {
+            display: inline-block;
+            text-decoration: none;
+            border-style: solid;
+            border: 3px solid green;
+            padding: 10px 20px;
+            margin: 10px;
+        }
+        .link1:hover {
+        background-color: rgb(172, 153, 189);
+        color: white;
+        border-color: white;
+        }
+        .link2 {
+            text-decoration: none;
+            color: white;
+            padding: 20px 20px;
+            background-color: rgb(172, 153, 189);
+            }
+            .link2:hover {
+        display: inline-block;
+        text-decoration: none;
+        border-style: solid;
+        border: 3px solid green;
+        padding: 10px 20px;
+        margin: 10px;
+        background-color: white;
+        color: green;
+    }
+    </style>
+    <header style="background-color: #331111; color: #FFFFFF; padding: 20px; text-align: center;">
+        <nav>
+            <ul style="padding: 0; margin: 0; list-style-type: none;">
+                <li style="display: inline; margin-right: 20px;"><a href="#home" style=" color: #fff;">Home</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="#about" style="color: #fff;">About</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="#dest" style="color: #fff;">Destinations</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="#gallery" style="color: #fff;">Gallery</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="contact.html" style="color: #fff;">ContactUs</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="login.html" style="color: #fff;">Login</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="register.html" style="color: #fff;">Register</a></li>
+                <button>Book now</button>
+            </ul>
+        </nav>
+    </header>
+    <h1>Explore</h1>
+    <h>Karnataka</h>
+    <p>Discover the hidden gems of <span style="color:blue;">Karnataka</span>  through <i>ancient temples</i> and
+    <i>natural wonders</i></p>
+    <img src="images/back-ground.jpg" alt="" height="800" width="1500">
+    <section class="tour-search">
+        <div class="container">
+            <form>
+                <div class="input-wrapper">
+                    <label for="destination" class="input-label">Search destination</label>
+                    <input type="text" id="destination" placeholder="Enter destination" class="input-field">
+                </div>
+                <div class="input-wrapper">
+                    <label for="people" class="input-label">Pax number</label>
+                    <input type="number" id="people" placeholder="Number of people" class="input-field">
+                </div>
+                <div class="input-wrapper">
+                    <label for="checkin" class="input-label">Check in date</label>
+                    <input type="date" id="checkin" placeholder="Mention the check in date" class="input-field">
+                </div>
+                <div class="input-wrapper">
+                    <label for="checkout" class="input-label">Check out date</label>
+                    <input type="date" id="checkout" placeholder="Mention the check out date" class="input-field">
+                </div>
+                <button type="submit" class="enquiry-btn">Enquire now</button>
+            </form>
+        </div>
+    </section>
+    <section id="about" style="background-color: #f9f9f9; padding: 40px;">
+        <h2>About</h2>
+        <p>Welcome to our travel website! We are dedicated to showcasing the beauty and cultural richness of Karnataka. Our mission is to help you
+            explore the hidden gems, ancient temples, and natural wonders of this incredible state. From the historic city of Hampi to the tranquil
+            hills of Coorg, Karnataka offers a diverse range of experiences. Join us as we uncover the secrets and wonders of Karnataka's rich
+            heritage and breathtaking landscapes.</p>
+    </section>
+    <section id="gallery" style="background-color: #f9f9f9; padding: 40px;">
+        <h2>Destinations</h2>
+        <div>
+            <img src="images/golgumbaaz.jpg" alt="golgumbaaz" height="320" width="450">
+            <a href="https://en.wikipedia.org/wiki/Gol_Gumbaz">Monuments</a>
+            <img src="images/kaup-beach.jpg" alt="kaup-beach" height="320" width="450">
+            <a href="https://www.tripadvisor.in/Attraction_Review-g737164-d3473449-Reviews-Kapu_Beach-Udupi_Udupi_District_Karnataka.html">Beaches</a>
+        </div>
+    </section>
+    <section id="gallery" style="background-color: #f9f9f9; padding: 40px;">
+        <h2>Gallery</h2>
+        <a href="https://en.wikipedia.org/wiki/Gol_Gumbaz">
+            <img src="images/golgumbaaz.jpg" alt="golgumbaaz" height="320" width="450">
+        </a>
+        <a href="https://www.tripadvisor.in/Attraction_Review-g737164-d3473449-Reviews-Kapu_Beach-Udupi_Udupi_District_Karnataka.html">
+            <img src="images/kaup-beach.jpg" alt="kaup-beach" height="320" width="450">
+        </a>
+        <picture>
+            <source media="(min-width: 650px)" srcset="images/nandi.jpg">
+            <source media="(min-width: 465px)" srcset="images/kaup-beach.jpg">
+            <img src="images/sunset-hampi.jpg" height="320" width="450">
+        </picture>
+        <button>More destination</button>
+    </section>
+    <div style="display: flex;">
+        <a href="" class="link1">Link Button</a>
+        <a href="" class="link2">Link Button</a>
+    </div>
+    <p class="para-one">Welcome to our travel website! We are dedicated to showcasing the beauty and cultural richness of Karnataka. Our mission is to help you
+        explore the hidden gems, ancient temples, and natural wonders of this incredible state. From the historic city of Hampi to the tranquil
+        hills of Coorg, Karnataka offers a diverse range of experiences. Join us as we uncover the secrets and wonders of Karnataka's rich
+        heritage and breathtaking landscapes.</p>
+        <p class="para-two">Welcome to our travel website! We are dedicated to showcasing the beauty and cultural richness of Karnataka. Our mission is to help you
+            explore the hidden gems, ancient temples, and natural wonders of this incredible state. From the historic city of Hampi to the tranquil
+            hills of Coorg, Karnataka offers a diverse range of experiences. Join us as we uncover the secrets and wonders of Karnataka's rich
+            heritage and breathtaking landscapes.</p>
+            <p class="para-three">Welcome to our travel website! We are dedicated to showcasing the beauty and cultural richness of Karnataka. Our mission is to help you
+                explore the hidden gems, ancient temples, and natural wonders of this incredible state. From the historic city of Hampi to the tranquil
+                hills of Coorg, Karnataka offers a diverse range of experiences. Join us as we uncover the secrets and wonders of Karnataka's rich
+                heritage and breathtaking landscapes.</p>
+                <a href="www.google.com" class="side-link">This is the link to open Google</a>
+
+    <footer id="contact" style="background-color: #c3b0b0; color: #070606; padding: 15px; text-align: center;">
+        <p>Tour tip<br>
+        <a href="mailto:tourtip@gmail.com">tourtip@email.com</a></p>
+    </footer>
+</body>
+</html>

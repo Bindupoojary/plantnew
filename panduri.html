@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="top">
+            <img class="top__logo"  src="https://cdn.shopify.com/s/files/1/2083/6855/files/logo_9583744d-ff6f-4185-bbef-8339c1c308f8_120x@2x.png?v=1614333419">
+            <span class="top__search" ><input type="search" placeholder="search in" size="60px"></span>
+            <img  class="top__account"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///8AAACUlJTm5ub29vbS0tLq6uqQkJDt7e38/Py4uLh9fX0iIiLy8vJBQUHNzc0vLy+cnJzd3d1qamqmpqaxsbFwcHA3NzeLi4tSUlLCwsKZmZkcHBw7OzsxMTFkZGRcXFwPDw8TExNKSkpUVFQoKCi+vr59EL7DAAAEC0lEQVR4nO3ciXaiMBQGYKNQAXcES7V1KbXv/4gzzJzOUYcly4WbxP97gvwHSMjNMhoBAAAAAAAAAAAAAAAAAAAAeCiarPLsMD5k+WoScTeGXJrvSnHjUu7ylLtRdNLpWtRZT70IGSfL2nh/HZOYu4GG4mzekq9yzZzOuK9/PR9e1m/uZmqLzhL5KmdHu9ZEMl8l4W6sjplCQCFm3M1VFpTdqe6UAXeT1USfigGF+HTqY5x0jRF13ifczZYXyQwS/1u78xRftQIK8crdcFlfmgGF+OJuupyxdkAhDtyNlxEaBBQi5G5+t1ivl/mxtv8/vDAKKMSUO0CXF8OAQrxwR+iwNU645Y7QLjUOKITdpY0dQcIdd4g25l9hxeYvcUOScMMdo4XZWPjjyB2jGUU/U7G3r6F5SW1+TXVnTY8+uIM0iYkCCmHrz+mKLOGKO0qDnCxhzh2lgVqFtI2t1dM3soS2VjM+yBLa2pnS/NFU1txR6gU6ZeB6cztL/It3soTvC+4wtfxP6P9b6n9P8wSjhf8jvv9/bf7/efs/exqRJeQO0oiqM11yB2l0IEpobyXK/2oiUbHN5g0L/lf1/V+Z8X917QlWSP1f5X6CnQqjqWFA63ebjOKjUcCjrYsyN7zf9WW2c2/M3Xg5J+2AJ+6mS4p1f08/HPgI/4r0Kqdzd3ZBj17Ut+oL8Wn9SHhrof4U53ZW8hstVIunpWMBR8qngpzpZG54f7Lrd38jOzCenOpj7uyvEvmu7p6wrHRW+i8ZdxONtZ50Xjr6AT5Ip/Uhl4XlBQsVk3x2P288znKHDuPJmuzzrJLvPQwHAAAAAAAAAO4LFlGYZJtxMdttT+e382m7mxXjTZaE0cLSUwfSJmFS7Mq2Zah5uS3y0MmyTbDPTvJLwa/nzd6lxxl8FzpbTq7FtxMp043sbYl1vg6WF4nTcVsJX47FlfAgpzqPf8xsfF1D812Jt06WbY6KE9WLILstc4sWvjuv0tUzt+UC3uzSS76KFcun33RnY2szci+Bh/Tf36OSs8+J6U4ctuHba7MfJF+F51UNaAfAdluGX4BVPyNEk/nghy5NtjrrGXYTf6B/zay+twHf1JTubgEV18EmHcP1oY/2wwSkO5SubpBj7FTXzukZ4PTl8J3ovd7PnJge3DLX86hBdR7dRK9PMeNO90ePk0a+YeJeb4MG1YUC5noa+oMLd7B/Lv38wJnUsqmd+wjIPRDe66FDpbtehwb5fDG+cEd6cKEu3gxTc1JBfFuW2QHtftBWGc0XzeiR3rWkctBuOJQnivhnFHUoZxl2jYU/KMdEJOSBhEiIhPyQEAmRkB8SIiES8kNCFf7PgFfTsX2m1t5rDgAAAAAAAAAAAAAAAAAAAE/rF+WqSKUd7RH4AAAAAElFTkSuQmCC">
+            <img class="top__wish" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNzlqjNpos-LJ0RhGqmgNfXKzBXWFOfdzpBw&usqp=CAU">
+            <img class="top__cart"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOsAAADWCAMAAAAHMIWUAAAAdVBMVEX///8AAADFxcXx8fGDg4Pj4+MwMDB4eHi0tLR0dHRJSUmrq6v29vZYWFj7+/v19fWpqalqamrOzs6MjIzo6Oi/v7+enp6Wlpbd3d3U1NRgYGA3NzcYGBhOTk7Ly8sODg4cHBwoKChAQECIiIiamposLCxmZmYQddx0AAAI2UlEQVR4nO1da0MqOwxkeYoCiiAgoICv//8Tr149gtNum7RpU1bn63H3ZNjNNpmkaav1jvlys6tOse2PB8u7eat56FY12K2vOtrGyeKpjur/eLjTtk8QAyfVDywm2jYKYe6l+o4LbStl8ELhWvV72nZK4IHEtaputA0VwJ7ItRpqWxqPA5VrNdY2NRpjMtfzJ3tD53r2r/GEwfXs1547DtlzD5EXDK4bbWNj8bj9PW9xq3W7nI5P8PDUryWrbWoCjFY3l1auV9qWpcHcltjuta1KhYkl4WtrG5UMFwbXtbZJ6WAuvw2TZU5hLL/nv+zUA/Wos08BHLjHB9sU+ckGXGgftQ1KiCvg2tU2KCFQatxrG5QS+HVq8KrTWgLXJpUCEPglbrLDtoDrq7Y9KYFi40X7nHDLKlpwZJoisaTHPyttW6OxpT/bnf9upYMsgU61LY3HJZUrhonnCGoYT6pIFw5yVMCQkEvFE5Wrv6uieByoXFlVnzLxQOXa0bY0HjMq19ZG29Ro0IXtZ21To0HPutvapsaiT6baGmnbGgtO0u1uWywfHDEFhZjhqFMyJvhsOO0PKMSQl2YdoM/tWVfjS1F2n8gtWDtgXW0IMYmslEGc9olCzDSRlTLAnlKepm0IMYmsFAG2qHG/LijErJJYKYM4dzWFmEUSK2WA7sr9uGDvRMlFZ6yjcheNHjpswUVnsHTPvgEKMbfiJkoBAx+uu5pCzDKBlTLAHRv8WACFGKLkuhpuNgOH7t55ft1uXHsn2m/9p9k1x1JcXfkx3jU67Ihy1czzEnxlxvtae74CNkbkYzSA0y/9BgoxFFnj++tf8+S+Q5RdzQ3W//7gnmwnumtI8z4KMYT890SUs3+2j2G2/cc4RgVkgdcIZ0NC90e4x95/ycmibH8Jj/9uFzVPml3JXodpSkhKZjis/yYnlSD7r3v8d/unbnj8A3JdEawMS7UxHPG/HBpcJdzVIsR4r9Dgiu4a1suOv9jee4UGV3TXwE2eFfc2GlzRSOJlCPzJvFtFFbiiqBAqoOD2O29HvAJXGXcNEGIUuK6rnwjek415nS9wU+AKFtbFnn6gEPPi+fv8XKXc1RRifHldfq74SQnfKWZ0xHjyuvxcxdzVdFhP21B+rmBfuLuaQsyz+8+zc0V3faNcVAMUYjzbf7NzRXeNGYxh5HXuSkl2ruiuUdUJFGLcOlB2rliJoVxTixnczK295uYq6a6mEOP+5XJzlXRXS0eM04TcXN/AuMhiIgoxzsAkN1ewLWZ1/QAWEJwukZkrumvsLmwUYpy/XWau2MAePXYK7uf0icxchd3VXK5dBfbMXEVX1w/gd91VYM/LFcvh8UMTOEJMXq7i7soqsOfliqqJQKsO3tLRXp6Xq7i7mkKMI6+L5nqSL3srZfLuahFi6vO6k//ebuqx99VeeT/my1uvXeiuIh1Y6LCOvO77HawpTB9TiZqOiO8c0l8UTOCuphDjyuu++jRqF6Yrj2GdLyck7DnB181/BQEoxDiruVf9d492PPnee2yy7Tr0yOWhqh4I3RLorjKNdcwC+8jXMOPreB2RWuTwkynUMInd9EU0TqO70htnnEAhpojGaZxDK3RbnhCTB7gSSvXBGkJMAY3TidzVFGIKmMU8BJOE3NUUYgponMZXTay9ubxpXeiu5L29fiBXsTcmFOiuvio4AyjEqDdOY9wq+OOjEEOeVZEKiVbXD5S20wHdVfS3x7xOedApuquoT2H0qTytC91VdJMJ/pDKG2IP6dzVIsTc9xSB673g6vqBomfECC+BtecplQDhPWFFz4ghbR2iwxBiCgJ9fwsRBY+cEI9YUYgpCOJzgw0hphyIB6zlzogRd1dTiCkG9LlUZNAOQVNAgjHfhhBTClLkl9qcauDpaQ4DCjFlILZZzQ7OyWDZsEszz9wQYgrAlLWLnwEUtMbPXV0s0o2VKkyISQrsxthrG5QQhhBTQL0uGdBhSx50FAscOZEg6i4GRl5X9ni9OCDXJr/EuOowZqSeHQw1scFfYkOc4M/AOh8YpyCnikcLgPESCxbviwNyldbcS4Ix+7/BHmueOKPeE5MOZq2juW+xeXCqelNMOhhcq8vGnmFnk9gaGxdbz4iaNTNaND32E+vlxWNv3rAvlftokt12f3jtp8dlN8d5rcWc6rbJ4DjlnMOSIZAp54Cd9MtdOUedhY25ZAHHzOshw3e/mN6uHN29pZANn7DGQCE9BXk293VwKLkKch0AX8Ipm9l2HozUW20TNDfV4npx0KS6z7yhZLV81aK6UyiezduLqULT7VQvgRyt2ndXi1m32x0Mhuvx23CQEt2bJldE//CHP/zhD3/4hZjMV7f3PVmx67p3/37PwvT11exfjLgdSqXP7cHh656vWXRvGi4g+u/GP90JHGmzK6M+9tg3w/LYPW6WauCugFlKRgvFp2Ux9YeOPWl6UHbcSW0NgHe67ilqC0Ya+eoJDnV2hZN11cY0yToz9LC91c4Cyk6vUc7uq98IMsyt6Kh1orTdVIOGIfikSa21BzcAGOBXW/w7nnS6bvy7zvjN1DgY24ROVyBhwAb3wVI2smk8WEoRljspFw87tEFjtJ3nI/wJpjBvbZ4CaHyKKXYx62i05oT8k7I6fqMqbhJAq2Dnb+OlFZt5zRt4jKAd+RMeXyDxCV44QZtOkn+TQV1f4k94jsgC4OhOO3IWXT+Rgivp067A9Te9w7QWTN5Gb9q3KVwFCAVtGg4vLaG9KwpbRyySWqxdtDU7ER8XSM7FvCelg1XiNAouKDkJNwGjDCfJ764t0kgnrnJK+AikmQDjg/9Lwp+27e8OUxJhvA+WL4j7hxMm4EGBz2NDpqj4wjG1ccDu7ktefPgPbsVJcQiN070ChSHXuqM6bt8xrSv0oOhRvRSrPKmk7skewuW+SV0XtkYU8QN23STuMBa7nFhAuXlkZp2b2JHAPfPRrsvotezMfrjYWqK74f6nRjGIOCZeGqvFcLOrdvvxrC1VNpw8Lt8O7/d8nb6ws7j/AKHYgo7dQvnDAAAAAElFTkSuQmCC">
+        </div>
+        <hr>
+        <nav class="dropdown">
+            <ul>
+              <li><a href="#">Flowering Plants</a>
+                <ul class="dropdown__content">
+                  <li><a href="#">creepers&climber plants</a></li>
+                  <li><a href="#">Year rounding Plants</a></li>
+                  <li><a href="#">Perfuming Flowering Plants</a></li>
+                  <li><a href="#">Aquatic Plants</a></li>
+                  <li><a href="#">Flowering Plants</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Indoor Plants</a>
+                <ul class="dropdown__content">
+                  <li><a href="#">Low Maintenance plants</a></li>
+                  <li><a href="#">Air purifying Plants</a></li>
+                  <li><a href="#">Office Plants</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Fruit Plants</a>
+                <ul class="dropdown__content">
+                  <li><a href="#">Grafted Fruit Plants</a></li>
+                  <li><a href="#">Exotic Fruit Plants</a></li>
+                  <li><a href="#">Hybrid Fruit Plants</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Outdoor Plants</a>
+                <ul class="dropdown__content">
+                  <li><a href="#">Flowering Trees</a></li>
+                  <li><a href="#">Avenue Trees</a></li>
+                  <li><a href="#">Palms</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Medicinal Plants</a>
+                <ul class="dropdown__content">
+                  <li><a href="#">Submenu </a></li>
+                  <li><a href="#">Submenu </a></li>
+                  <li><a href="#">Submenu </a></li>
+                </ul>
+              </li>
+              <li><a href="#">Creepers&Climbers</a>
+                <ul class="dropdown__content">
+                  <li><a href="#">Creepers&Climbers for foliage</a></li>
+                  <li><a href="#">Creepers&Climbers for flowering</a></li>
+                  <li><a href="#">Creepers&Climbers for perfuming</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Pots&Planters</a>
+                <ul class="dropdown__content">
+                  <li><a href="#">Ceramic Pots</a></li>
+                  <li><a href="#">Metalic Pots</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Top 10</a>
+                <ul class="dropdown__content">
+                  <li><a href="#">Top 10 Fruit Plants</a></li>
+                  <li><a href="#">Top 10 Flowering Plants</a></li>
+                  <li><a href="#">Top 10 creeper Plants</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+
+
+
+    <table>
+        <td>
+           <img style="height: 100px; width:100px; " src="https://cdn.shopify.com/s/files/1/2083/6855/products/WhatsAppImage2022-10-13at3.23.06PM_110x110@2x.jpg?v=1665655104"><br>
+
+           <img style="height: 100px; width:100px" src="https://cdn.shopify.com/s/files/1/2083/6855/products/395559_110x110@2x.jpg?v=1578916147">
+        </td>
+        <td>
+            <img style="height: 400px; width:400px" src="https://cdn.shopify.com/s/files/1/2083/6855/products/Clerodendrum-thomsoniae_110x110@2x.jpg?v=1578916147">
+        </td>
+        <td style="padding-top: 50px; padding-left: 20px; font-weight: bold; font-size: 25px;">
+            Bleeding Heart Vine White - Creepers & Climbers
+            <br>
+            <p style="font-size: 18px;">reviews | no questions</p>
+            <p>MRP Rs. 715
+               <span style="font-size: 20px; color: rgb(107, 140, 141);">MRP Rs. 930</span>
+                <span style="font-size: 15px; background-color: rgb(228, 115, 73); color: white;">23% off</span>
+                <p style="font-size: 13px;">Inclusive of all taxes and shipping</p>
+            </p>
+            <div  style="background-color: rgb(160, 150, 150); font-size: 17px; font-weight: normal;">
+                <img  style="height: 25px; width: 30px;"   src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSoRM31u3jMOmHqzVe2PSuaOrrOqlxlsQ-s8ti1aElgf5KFFGIj">Genuine Variety Plants with Fertilised Soil & Pot<br>
+                <img style="height: 30px; width: 30px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQGUtTpsZ9D7XaR_UOsD9uWPWHXx2Ql0ExBy09LnqjSv8IWsV50">  Secure Plant Packing to Sustain During Transit<br>
+                <img  style="height:25px ; width: 25px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAMAAAAL34HQAAAAY1BMVEX///8AAADLy8ve3t6kpKTn5+f6+vrh4eE8PDzs7Ox7e3uenp7b29taWlrT09Nvb28yMjK6urq0tLROTk709PRqamonJyeNjY2BgYEeHh4sLCwXFxdiYmINDQ2qqqpBQUGVlZUkJCeUAAAEPElEQVR4nO2c6XaqMBCAWWSVRUSKbRV5/6e8UtGakIQkMyk55+b762n4SpYZsnmew+FwOBwOx99zisIqmKnC6LS1j+fFxdDX5e3gvzjcyrofku2UkuCc+lzSPtjALd7VB77T/OLqXYz4xNWyoua2pvSkbSIkrWAU/571grpj1WaGo+XvRL92Kk4P8gBFi+9V5OpSP2Lwqrxrcbx0pSbO0H45aTG9hg99K9//OiJoLb2KT4jUxAH0wh5atNd4hVr5/ucerkV4FS1caqLUb/pPrTevCtSq3jkUYK2XV7/yrGvaXro6z+uubFeHWtGgKKc1FzEKlS5DUEXZnM2csqRqduIa12xgb1qT14n/kFt35LSVaOj4kbwDa/lDzA02pTgKJw33/znrJBaEls8ZrdJRIgAn/Rf7r1sNr4BdFMEg2dGTPed9GdBSGhXj8ZtVhnr7WtPqFIeeqmSVotwfxVppo1qe5x1ZvVJ1/BJqtVqpZsRKshVfukhr0JGaYDT9VC0+CrQAKdOwLO2Co/UFynwZ+ZpS8+Jp3bSD/1zuIg35VMkLeVqQHO6HbOGVImhppyS/JS/qUWG04Td5sFdBl3iQb66Cngj2WvTHHkML7rUYv6Rfl3CUB3vRSbV0LiGOiVCviErBrhWKFtiLbl6yr2stsYF60bm05FzrahoI9Kqo7/MRSQvqRX123uRyJYlcHuYVU6XJTcrJfGLAvKjv4RJNyx8hWiEVs6X+6FSE61Sgqe0zqaWd8yITklr51j5PyBCkmNWb40i+LowJcgwSMjKOW/vMxBdCq93a58lOY4j4A6j0GWdZCAFSC7iUgAc5KzFurfOEjIvWDKgNoXVBXKYFUZEjhC1tviCyCGvCDzkT9w2cdkEjI780ZD/LTEOFH1uCtdfZqVU7LQXsrERLm7ylA4Slw2lIZPPWBB9LQ7WliY2laaClSTNhpbKaYRRqcsSWFm/n5ysVeuTmA81j6dQItWZgS0S0c9rN0klKakrXkomRkFol29pnhlouUNsPYQy9xRXjUEtRluRamgt3pqGXOe3IAHUXhc2ivYRuFu0NB0ZZbM+wohsuNrOMWxtNQLb+mAO0UcoYEWhbmSmAm/AMAd2yyOcEiPXgDZ58atTtsFi9cMreNDcPs05oIM20PaZ+dLZaD6zd/EgN6zVPttHGdDbZbz1gbONHau4xWQ/QQw85Uu5Hfdn56V7qiAjnNJXOEREWrHNR+gdqsN4VZ0uX7vEjJKuG+4R70tv9HNaanzQd1gp2zK73AqkPModoUm062pbfkTnahmbFSpR00T8IyMKCY5NseoRDpt+IFfikYo7WKsCO5HIZQC3sw9jkWlGvP53HOTRlBRDLTWftm10lsEbUr15Q8Q7WxQsSYltcUyFFvK8551p/wb3UQ5YwOAtqc5srUGYWF8ZcHxfG2LB/wL7rdRwOh8PhcPyn/AO/NjG90yZRmAAAAABJRU5ErkJggg==">Live Chat Support & 7Days Easy Return Policy<br>
+                <img style="height: 25px; width: 25px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB9CAMAAABES7fdAAAAmVBMVEX///8jHyAREiQAAADe3t4GAACampru7u74+PgfGxz09PTa2toAABsLDCARCgwODyK6urpTUVIXERMbFhfHx8dCQEEAABh/fn7o6Oh1dXXS0tKwr7BpaWmRkZFGRUVlY2NcWluHhoYmJSUwLS4dHi1VVl+Kio9iYmttbXWnp6c4NzcAABAwMDxMTFMrKzRcXGI4OD5CQkx7e4I+YZl3AAADvUlEQVRoge2ZCXOiShCAgWa4AsNlOEVEVHADUfj/P+4Nh0bNxrza3Xbfq5ovlpCpFJ89R0+PEQQOh8PhcDgcDofD4WCyUGLXXWaO9jSjkVE4E0fPcTo6kDiVo0h2wg0Q5RnODCC8hKcqPiyNJzj9hSBoiRLHSsKGNHqFHHtkU9Bl1sMrIJQSWDnMv4IC1xnpJBGEGHxxxIeYzasNLFClMWSCkIN4AXK2fuAV0yl7pSEoV05mVYZP4SBKDyxQ48bJrIaQwBJRmkOWZGQczYuUZC8HcYMoLXUC+qBcx/Ri3VDQPRnN+XI2ebnxw2NXSvQ53BTLqYVnKRvaqKT6aqGIZFo7rookdWFenOCyzKflAJGgzXPZA6S0NDvXyRyVNnqcKVZ4wZR68W1rOkuRplIBX0sJWlI6kK+kHl52cIZQafEvGv8gqu6L+pDyr1FgaEzQpEJSgr++mzJuwmoWtNwwog61Q3FVoGSLsRGdtQjrwyKEkN3L7hOEA+o6ydYlUNbPBlr6+0TCCkAtjR1BzREn0CdrPlZFiyc51WnqqsWyYK+pb2XcLtYKsplnrvajnPcVY0MKxMpX3RCR5tP9As6FZ05FskELVqP+XP4NHA7TddxQfYoV61w4zBkpDMeLPG14NMRxqnPtqZfjsJbl8G6Uc5UEOB2skHPROWxuMowRx5dGnCNjfql1IR0+wqBJL5W3v8ZwavpHVU9lYe0zjfxR/Yo6xlRSr44T/qvxquvs7aPQFwHji4CX6zMMCRVKlZBcNaGUg4ubg5MXUxp71y0oh9RbqaiPrydLP4EiTb6TYmxz8ndSjBI/+k6KsWTU76QYyVfzH0t9jIyklfojp16i7Kjuw1B9nAJ4+ViKc267zXr33J8g/8/Sgj6SIp1QH+dBrBOq+yBUinV6UzdfWiletR258NNl44OL+U+LdOUBuQO8Fe7pn5VKjnKHg/RdGYfD4XA4HA6Hw+H8x5D/AgL8BQTpFlt6Akxqby17/GG8NZZkmnYgmdstnp9JzV1Tte/tcdd1p6JYZl0chHt311q//FDTGjHZ1ZyCscwgCN4CMzDNSWqddnVVt23VHut3Zb/Pjs5JSYNfD8TatW3Tnbq6bZpd05w69lvdH6t9tauPdTBKJbNv667qql21a+tsn+33/T47/Uagx7ru67qu+qqvq6rue2Zjd/u87avhuYPU3gbNe9Nsm3dJat+2UgPd9reGlPWhbdpsdkiBZNm2ZUrD/ZbNE8saHjvOXluyJ1jXDLfDX/75afTxxPsl8xT+AczOSoGUI9mEAAAAAElFTkSuQmCC">Plantcare Expert Support for Your Plant Growth,<br>
+
+            </div>
+           <label style="font-size: 20px;">qty:</label>
+           <input type="number" ><br><br>
+           <span style="background-color: rgb(219, 116, 79); font-size: 20px; color:aliceblue">Add to Cart</span>
+           <span style="background-color: rgb(247, 243, 241); color: rgb(210, 116, 65); font-size: 20PX; border-color: rgb(232, 109, 64);">Buyit Now</span>
+           <br><hr>
+           <img src="https://cdn.shopify.com/s/files/1/2083/6855/files/Delivery-_-Packing_81924c6f-4829-4c5e-a104-c9795bb9f969_small.png?v=1646722244">
+           <span><img src="https://cdn.shopify.com/s/files/1/2083/6855/files/Plant-Expert-Support_e147435f-dd4c-4020-a86e-2bc90a322e7b_small.png?v=1646722259"></span>
+           <span><img src="https://cdn.shopify.com/s/files/1/2083/6855/files/payment-mode_0cb70faa-4f42-4702-9c2c-cf30f84f0492_small.png?v=1646722259" ></span>
+           <span><img src="https://cdn.shopify.com/s/files/1/2083/6855/files/Return-Policy_42a04071-b2d4-46fa-89ca-55e10b7912a6_small.png?v=1646722259"></span>
+        </td>
+    </table>
+    <div style="border-color: black; border-radius: 5px;">
+        <p style="font-weight: bold;">Description</p>
+        Bleeding Heart Botanically known as Clerodendrum thomsonae from Verbenaceae family. Common names are glory-bower, bagflower, bleeding-heart vine,  etc. It is a perennial evergreen flowering vine with showy white flowers and carolla is bright red. The white sepals are long lasting & it requires trelling or chain like fencing or arbors for growing over it.  It can also grow in pots/containers.
+        <br>
+        Plants have very showy flowers, which is an attractive bushy, tropical looking twining vine. Bleeding Heart Vine blooms profusely with rich crimson corollas peeking from white, balloon-like calyxes. The flowers are seen as clusters of red and white.They are good climbing plant
+    </div><br>
+    <div>
+        ADDITIONAL INFORMATION
+    </div>
+    <br>
+    <div>SHIPPING & RETURNS</div><br>
+    <footer>
+        <div style="background-color: rgb(215, 232, 173); height: 400px; width: 1250px;"><img style="height: 75px ; width: 75px;"  src="https://cdn.shopify.com/s/files/1/2083/6855/files/logo_9583744d-ff6f-4185-bbef-8339c1c308f8_120x@2x.png?v=1614333419">
+        <div style="height: 400px; width:400px">Exotic Flora is a one stop destination for all your gardening needs. If you're a green thumb or a black thumb, you belong here just as much! Come shop with us, and let us play a significant role in accentuating your beautiful space. We can't wait to see you bring Exotic Flora home.If you've already brought from us then thank you for inviting us home!
+        <br>
+        <div>
+            <div style="font-size: 30px; color: rgb(63, 86, 40);">Information</div>
+            <p>About us</p>
+            <p> FAQ's</p>
+            <p>  Contact Us</p>
+               <p>Login</p>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    </footer>
+</body>
+</html>

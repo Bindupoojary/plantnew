@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Buy Plants Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div style="margin-bottom: 50px;">
+        <img style="height: 75px ; width: 75px;"  src="https://cdn.shopify.com/s/files/1/2083/6855/files/logo_9583744d-ff6f-4185-bbef-8339c1c308f8_120x@2x.png?v=1614333419">
+        <span style="padding-left: 280px;"><input type="search" placeholder="search in" size="60px"></span>
+        <img style="height: 25px ; width: 25px; padding-left: 280px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///8AAACUlJTm5ub29vbS0tLq6uqQkJDt7e38/Py4uLh9fX0iIiLy8vJBQUHNzc0vLy+cnJzd3d1qamqmpqaxsbFwcHA3NzeLi4tSUlLCwsKZmZkcHBw7OzsxMTFkZGRcXFwPDw8TExNKSkpUVFQoKCi+vr59EL7DAAAEC0lEQVR4nO3ciXaiMBQGYKNQAXcES7V1KbXv/4gzzJzOUYcly4WbxP97gvwHSMjNMhoBAAAAAAAAAAAAAAAAAAAAeCiarPLsMD5k+WoScTeGXJrvSnHjUu7ylLtRdNLpWtRZT70IGSfL2nh/HZOYu4GG4mzekq9yzZzOuK9/PR9e1m/uZmqLzhL5KmdHu9ZEMl8l4W6sjplCQCFm3M1VFpTdqe6UAXeT1USfigGF+HTqY5x0jRF13ifczZYXyQwS/1u78xRftQIK8crdcFlfmgGF+OJuupyxdkAhDtyNlxEaBBQi5G5+t1ivl/mxtv8/vDAKKMSUO0CXF8OAQrxwR+iwNU645Y7QLjUOKITdpY0dQcIdd4g25l9hxeYvcUOScMMdo4XZWPjjyB2jGUU/U7G3r6F5SW1+TXVnTY8+uIM0iYkCCmHrz+mKLOGKO0qDnCxhzh2lgVqFtI2t1dM3soS2VjM+yBLa2pnS/NFU1txR6gU6ZeB6cztL/It3soTvC+4wtfxP6P9b6n9P8wSjhf8jvv9/bf7/efs/exqRJeQO0oiqM11yB2l0IEpobyXK/2oiUbHN5g0L/lf1/V+Z8X917QlWSP1f5X6CnQqjqWFA63ebjOKjUcCjrYsyN7zf9WW2c2/M3Xg5J+2AJ+6mS4p1f08/HPgI/4r0Kqdzd3ZBj17Ut+oL8Wn9SHhrof4U53ZW8hstVIunpWMBR8qngpzpZG54f7Lrd38jOzCenOpj7uyvEvmu7p6wrHRW+i8ZdxONtZ50Xjr6AT5Ip/Uhl4XlBQsVk3x2P288znKHDuPJmuzzrJLvPQwHAAAAAAAAAO4LFlGYZJtxMdttT+e382m7mxXjTZaE0cLSUwfSJmFS7Mq2Zah5uS3y0MmyTbDPTvJLwa/nzd6lxxl8FzpbTq7FtxMp043sbYl1vg6WF4nTcVsJX47FlfAgpzqPf8xsfF1D812Jt06WbY6KE9WLILstc4sWvjuv0tUzt+UC3uzSS76KFcun33RnY2szci+Bh/Tf36OSs8+J6U4ctuHba7MfJF+F51UNaAfAdluGX4BVPyNEk/nghy5NtjrrGXYTf6B/zay+twHf1JTubgEV18EmHcP1oY/2wwSkO5SubpBj7FTXzukZ4PTl8J3ovd7PnJge3DLX86hBdR7dRK9PMeNO90ePk0a+YeJeb4MG1YUC5noa+oMLd7B/Lv38wJnUsqmd+wjIPRDe66FDpbtehwb5fDG+cEd6cKEu3gxTc1JBfFuW2QHtftBWGc0XzeiR3rWkctBuOJQnivhnFHUoZxl2jYU/KMdEJOSBhEiIhPyQEAmRkB8SIiES8kNCFf7PgFfTsX2m1t5rDgAAAAAAAAAAAAAAAAAAAE/rF+WqSKUd7RH4AAAAAElFTkSuQmCC">
+        <img style="height: 25px ; width: 25px; " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNzlqjNpos-LJ0RhGqmgNfXKzBXWFOfdzpBw&usqp=CAU">
+        <img style="height: 25px ; width: 25px;" src="data:image/png;base64,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">
+    </div>
+
+    <nav>
+        <ul>
+
+                <li>Flowering plants
+                   <ul>
+                    <li>creepers & climbers plant</li>
+                    <li>year rounding plants</li>
+                    <li>perfuming flowering plants</li>
+                    <li>aquatic plants</li>
+                    <li>flowering plants</li>
+                   </ul>
+                </li>
+
+                <li>Indoor plants
+                    <ul>
+                       <li>Low Maintenance Plants</li>
+                       <li> Air Purifier Plants</li>
+                       <li>Office Plants</li>
+                       <li>Foliage Plants</li>
+                       <li>Indoor Flowering Plants</li>
+                       <li>All Indoor Plants</li>
+                    </ul>
+                </li>
+
+                <li>
+                     Fruit Plants
+                    <ul>
+                        <li> Grafted Fruit Plants </li>
+                        <li>Exotic Fruit Plants </li>
+                        <li>Fruit Plants to grow in Pots </li>
+                        <li>Vitamine Rich Fruit Plants </li>
+                        <li>Hybrid Fruit Plants </li>
+                    </ul>
+                </li>
+
+                <li>
+                    creepers and climbers
+                    Fruit Plants
+                    <ul>
+                        <li> Creepers & Climbers For Foliage</li>
+                        <li>Creepers & Climbers For Flowering </li>
+                        <li>Creepers & Climbers For Perfuming </li>
+                        <li>Creepers & Climbers For Flowering and Foliage. </li>
+                        <li>All Creepers & Climbers </li>
+                    </ul>
+                 </li>
+
+                <li>
+                    Pots and planters
+                    <ul>
+                        <li>ceramic pots</li>
+                        <li>mettalic pots</li>
+                    </ul>
+                </li>
+
+        </ul>
+
+    </nav>
+    <p  style="text-align: center;">FOR YOUR PLANTS</p>
+    <div class="banner" style="margin-bottom: 8px;">
+
+        <img  style="width: 1200px;" src="mainbnr.jpeg">
+        <h1 style="color: rgb(3, 10, 27);"><span style=" font-size:17px ; color: rgb(5, 103, 5); padding-top: 30px;">Shop from</span><br> OUR BROAD RANGE OF<br> LIVE PLANTS
+            <div style="height: 30px; width: 100px; background-color: rgb(40, 175, 40); font-size: 17px; text-align: center;" >Shop now</div>
+        </h1>
+    </div>
+
+    <div style="text-align: center;">SHOP BY CATEGORY</div>
+    <br>
+    <table  style="margin-bottom: 8px;">
+        <td>
+            <img src="https://cdn.shopify.com/s/files/1/2083/6855/files/1_47b18e83-7d40-41de-8c96-d07e6218cdb2_large.jpg?v=1614335834" alt="indoor plants">
+            <p>Indoor Plants</p>
+        </td>
+        <td>
+            <img src="https://cdn.shopify.com/s/files/1/2083/6855/files/2_73202749-4fcf-434f-9691-8aad92098e3a_large.jpg?v=1614335834" alt="Fruit Plants">
+            <p>Fruit Plants</p>
+        </td>
+        <td>
+            <img src="https://cdn.shopify.com/s/files/1/2083/6855/files/3_8930484b-a84b-44ee-b251-902f93882e5f_large.jpg?v=1614335834" alt="Flowering Plants">
+            <p>Flowering Plants</p>
+        </td>
+        <td>
+            <img src="https://cdn.shopify.com/s/files/1/2083/6855/files/4_fb2b8f87-139b-4c9f-9180-df618fa4a4e4_large.jpg?v=1614335834" alt="Outdoor Plants">
+            <p>Outdoor Plants</p>
+        </td>
+    </table>
+    <div style="text-align: center;">TOP SELLING PRODUCTS</div>
+    <br>
+    <table>
+        <td>
+            <img alt="Bleeding Heart Vine White - Creepers & Climbers" src="https://cdn.shopify.com/s/files/1/2083/6855/products/Clerodendrum-thomsoniae_110x110@2x.jpg?v=1578916147">
+             <a href="vinewhite.html"><p>Bleeding Heart Vine White - Creepers & Climbers</p></a>
+             <p style="background-color: green; width: 150px; text-align: center; color: white">Add to Cart</p>
+            </td>
+        <td>
+            <img alt="Thunbergia Mysorensis - Creepers & Climbers" style="height: 250px; width: 250px;" src="https://cdn.shopify.com/s/files/1/2083/6855/products/thunbergiamysorensis4.png?v=1617193054">
+            <a href="mysorenesis.html"><p>Thunbergia Mysorensis - Creepers & Climbers</p></a>
+            <p style="background-color: green; width: 150px; text-align: center; color: white;">Add to Cart</p>
+        </td>
+        <td>
+            <img alt ="Cassia Fistula / Indian Laburnum - Avenue Trees" style="height: 250px; width: 250px;" src="https://cdn.shopify.com/s/files/1/2083/6855/products/cassiafistula2.jpg?v=1638339737">
+            <a href="cassia.html"><p>Cassia Fistula / Indian Laburnum - Avenue Trees</p></a>
+            <p style="background-color: green; width: 150px; text-align: center;color: white">Add to Cart</p>
+        </td>
+        <td>
+            <img alt="ango Alphonso(Grafted) - Fruit Plants & Tree" style="height: 250px; width: 250px;"src="https://cdn.shopify.com/s/files/1/2083/6855/products/alphonsomango_720x.jpg?v=1612358490">
+           <a href="alphanso.html"> <p>Mango Alphonso(Grafted) - Fruit Plants & Tree</p></a>
+           <p style="background-color: green; width: 150px; text-align: center; color: white">Add to Cart</p>
+        </td>
+    </table>
+
+    <table>
+        <td>
+            <img alt="Mango Panduri - Fruits Plant & Tree" style="height: 250px; width: 250px;" src="https://cdn.shopify.com/s/files/1/2083/6855/products/WhatsAppImage2022-10-13at3.23.06PM.jpg?v=1665655104">
+             <a href="vinewhite.html"><p>Mango Panduri - Fruits Plant & Tree</p></a>
+             <p style="background-color: green; width: 150px; text-align: center; color: white">Add to Cart</p>
+            </td>
+        <td>
+            <img alt="California Sapota/Chikoo-Fruit Plant & Tree" style="height: 250px; width: 250px;" src="https://cdn.shopify.com/s/files/1/2083/6855/products/WhatsAppImage2022-10-08at4.07.02PM_1_720x.jpg?v=1665226083">
+            <a href="mysorenesis.html"><p>California Sapota/Chikoo-Fruit Plant & Tree.</p></a>
+            <p style="background-color: green; width: 150px; text-align: center; color: white;">Add to Cart</p>
+        </td>
+        <td>
+            <img alt="Vietnam Malta Mosambi- Fruits Plant & Tree" style="height: 250px; width: 250px;" src="https://cdn.shopify.com/s/files/1/2083/6855/products/WhatsAppImage2022-10-07at1.27.53PM_1.jpg?v=1665142551">
+            <a href="cassia.html"><p>Vietnam Malta Mosambi- Fruits Plant & Tree</p></a>
+            <p style="background-color: green; width: 150px; text-align: center;color: white">Add to Cart</p>
+        </td>
+        <td>
+            <img alt="Velvet Apple-Fruit & Plant Tree" style="height: 250px; width: 250px;"src="https://cdn.shopify.com/s/files/1/2083/6855/products/Velvetapple.jpg?v=1665464605">
+           <a href="alphanso.html"> <p>Velvet Apple-Fruit & Plant Tree</p></a>
+           <p style="background-color: green; width: 150px; text-align: center; color: white">Add to Cart</p>
+        </td>
+    </table>
+    <p style="text-align: center;">Our Freshest Collection</p>
+    <table>
+        <tr>
+            <td class="ind"><img  style="height: 200px; width:590px;" src="indoor.jpg"><h1>Indoor Plants</h1></td>
+            <td class="ind"><img style="height: 200px; width:590px;" src="fruitbnr.jpeg"><h1>Fruit Plants</h1></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td><img style="height: 200px; width:385px;" src="flwrbnr.jpeg"></td>
+            <td><img  style="height: 200px; width:385px;" src="creeperbnr.jpeg"></td>
+            <td><img  style="height: 200px; width:385px;" src="potsbnr.jpeg"></td>
+        </tr>
+    </table>
+    <div class="review" style="height: 300px; width:1200px; margin:10px">
+        <h1 style="margin-bottom: 8px;">"Really Great Store"
+         <p style="font-size: 17px; color: grey;">"A trusted website .Plants were in the good Condition when i recieved them.This is the second purchase from you.Definitely buy mor from you. "
+        </p>
+        <div style="font-size: 16px;"> Arjun A</div>
+        </h1>
+    </div>
+
+    <div style="height: 300px; width:1200px; background-color: rgb(167, 160, 160); color: black; margin-bottom: 20px;"><div style="margin-bottom: 20px; font-size: 20px;"><u>From Our Blog</u></div>
+     <table>
+        <td style="color: rgb(77, 68, 68); ">Dec 18,2018
+            <div style="color: rgb(17, 6, 6);"> Reviews of Customer Aquatic Plants</div>
+            <div style="color: rgb(77, 68, 68);">One of our Customer Dr.patel bought aquatic plant which is in a very good condition</div>
+        </td>
+
+        <td style="color: rgb(77, 68, 68);">Dec 18,2018
+            <div style="color: rgb(17, 6, 6);"> Happy Customer with Aquatic Plants</div>
+            <div style="color: rgb(77, 68, 68);">One of our Customer ms. Asha bought aquatic plant which is in a very good condition</div>
+        </td>
+
+        <td style="color: rgb(77, 68, 68);">Dec 10,2018
+            <div style="color: rgb(17, 6, 6);"> Happy Customers</div>
+            <div style="color: rgb(77, 68, 68);">One of our Customer Dr.patel bought aquatic plant which is in a very good condition</div>
+        </td>
+     </table>
+    </div>
+
+    <div style="width: 1200px;">
+        <table>
+            <td  style="padding: 35px;">
+                <span><img  style="height: 27px; width:27px" src="ship.png"></span>
+                <span>
+                    Payment & Delivery<br>
+                    Free Shipping all over India.</span>
+            </td>
+            <td style="padding: 35px;">
+                <span><img  style="height: 27px; width:27px"  src="refund.png"></span>
+                <span>
+                   Return & Refund<br>
+                   Free 100% money back guarantee.</span>
+            </td>
+            <td style="padding: 35px;">
+                <span><img style="height: 27px; width:27px"  src="qsupport.png"></span>
+                <span>
+                    Quality Support<br>
+                    Always online feedback 24/7</span>
+            </td>
+            <td style="padding: 35px;">
+                <span><img  style="height: 27px; width:27px" src="newslettr.png"></span>
+                <span>
+                    Join our newsletter<br>
+                    10% off by subscribing</span>
+            </td>
+        </table>
+    </div>
+
+    <div style="text-align: center; font-size: 30px;">ExoticFlora's Favourites</div>
+    <br>
+    <table>
+        <td>
+            <img style="height: 250px; width: 250px; padding: 30px; "  src="sguawa.webp" alt="Strwaberry Guava">
+             <a href="vinewhite.html"><p>Strwaberry Guava</p></a>
+             <p style="background-color: green; width: 150px; text-align: center; color: white">Add to Cart</p>
+            </td>
+        <td>
+            <img style="height: 250px; width: 250px;padding: 30px;" src="miyanzimango.webp" alt="miyazaki Mango">
+            <a href="mysorenesis.html"><p>Miyazaki Mango</p></a>
+            <p style="background-color: green; width: 150px; text-align: center; color: white;">Add to Cart</p>
+        </td>
+        <td>
+            <img style="height: 250px; width: 250px;padding: 30px;" src="blueberry.webp" alt="Blueberry Plant">
+            <a href="cassia.html"><p>Blueberry Plant</p></a>
+            <p style="background-color: green; width: 150px; text-align: center;color: white">Add to Cart</p>
+        </td>
+        <td>
+            <img style="height: 250px; width: 250px;padding: 25px;" alt="Golden Mango" src="https://cdn.shopify.com/s/files/1/2083/6855/products/alphonsomango_720x.jpg?v=1612358490">
+           <a href="alphanso.html"> <p>Golden Mango</p></a>
+           <p style="background-color: green; width: 150px; text-align: center; color: white">Add to Cart</p>
+        </td>
+    </table>
+
+    <footer class="footr" style="height:800px; width:1200px">
+
+        <div>
+            <table  style="margin-bottom: 8px;">
+                <tr>
+                    <td style="height: 400px; width:400px">
+                        <img style="height: 100px ; width: 130px;"  src="https://cdn.shopify.com/s/files/1/2083/6855/files/logo_9583744d-ff6f-4185-bbef-8339c1c308f8_120x@2x.png?v=1614333419">
+                        <br>Exotic Flora is a one stop destination for all your gardening needs. If you're a green thumb or a black thumb, you belong here just as much! Come shop with us, and let us play a significant role in accentuating your beautiful space. We can't wait to see you bring Exotic Flora home.If you've already brought from us then thank you for inviting us home!></td>
+                    <td>
+                        <img style="height: 30px; width: 30px; padding-left: 200px;" src="fb.png">
+                    </td>
+                    <td>
+                        <img style="height: 30px; width: 30px; padding-left: 2px;" src="ig.png">
+                    </td>
+                </tr>
+              <tr>
+                <td>
+                    <div style="font-size: 30px; color: rgb(63, 86, 40);">Information</div>
+                    <a>About us</a><br>
+                    <a> FAQ's</a><br>
+                    <a> Contact Us</a><br>
+                    <a>Login</a><br>
+                    </div>
+                </td>
+
+                <td style="padding-left: 200px;">
+                    <div style="font-size: 30px; color: rgb(63, 86, 40);">Customer Service</div>
+                    <a>About us</a><br>
+                    <a> FAQ's</a><br>
+                    <a> Contact Us</a><br>
+                    <a>Login</a><br>
+                </td>
+                <td style="padding-left: 250px;">
+                    <div style="font-size: 30px; color: rgb(63, 86, 40);">My Account</div>
+                    <a>Sign IN</a><br>
+                    <a> View Cart</a><br>
+                    <a> Whishlist</a><br>
+
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <div style="font-size: 30px; color: rgb(63, 86, 40);">Flowering Plants</div>
+                    <a>Aquatic Plants</a><br>
+                    <a>  Creepers & Climbers</a><br>
+                    <a>    Flowering Plants</a><br>
+                    <a>   Flowering Shrubs</a><br>
+                    </div>
+                </td>
+
+                <td style="padding-left: 200px;">
+                    <div style="font-size: 30px; color: rgb(63, 86, 40);">Cactus and Bonsai</div>
+                    <a>Bonsai</a><br>
+                    <a> Bonsai Starters</a><br>
+
+                </td>
+                <td style="padding-left: 250px;">
+                    <div style="font-size: 30px; color: rgb(63, 86, 40);">Indoor Plants</div>
+                    <a>Office Plants </a><br>
+                    <a> Low Maintenance Plants</a><br>
+                    <a> Foliage Plants</a><br>
+
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <div style="font-size: 30px; color: rgb(63, 86, 40);">Outdoor Plants</div>
+                    <a>Cactus</a><br>
+                    <a> Avenue Trees</a><br>
+                    <a> Ornamental Shrubs</a><br>
+                    <a>Palms</a><br>
+                    </div>
+                </td>
+
+                <td style="padding-left: 200px;">
+                    <div style="font-size: 30px; color: rgb(63, 86, 40);">Bonsai</div>
+                    <a>Bonsai</a><br>
+                    <a> Bonsai Starters</a><br>
+                </td>
+                <td style="padding-left: 250px;">
+                    <div style="font-size: 30px; color: rgb(63, 86, 40);">Pots and Planters</div>
+                    <a>Ceramic Pots</a><br>
+                    <a> Mettalic Pots</a><br>
+                </td>
+            </tr>
+            </table>
+
+            <div>
+                Got Question? Call us 24/7
+                <br>
+                <img style="height: 30px; width:30px" src="wtsp.jpeg"><span> 91-9177805454</span></img>
+            </div>
+            <span>
+                Copyrigaht © 2020 Exotic Flora. All Rights Reserved.</span>
+        </div>
+        </div>
+    </div>
+
+    </footer>
+</body>
+</html>
+
+
+
+<div class="ship" >
+    <table>
+        <td class="ship__data" >
+            <span><img class="ship__data--img" src="ship.png"></span>
+            <span>
+                Payment & Delivery<br>
+                Free Shipping all over India.</span>
+        </td>
+        <td class="ship__data" >
+            <span><img class="ship__data--img"  src="refund.png"></span>
+            <span>
+               Return & Refund<br>
+               Free 100% money back guarantee.</span>
+        </td>
+        <td class="ship__data">
+            <span><img class="ship__data--img"  src="qsupport.png"></span>
+            <span>
+                Quality Support<br>
+                Always online feedback 24/7</span>
+        </td>
+        <td class="ship__data" >
+            <span><img class="ship__data--img"  src="newslettr.png"></span>
+            <span>
+                Join our newsletter<br>
+                10% off by subscribing</span>
+        </td>
+    </table>
+</div>
+
+
+
+
+
+<footer class="footr">
+    <div class="footr__main" >
+      <div>
+        <table class="footr__main--tbl" >
+            <tr>
+                <td class="footrdata1">
+                    <img id="ftrlogo"  src="https://cdn.shopify.com/s/files/1/2083/6855/files/logo_9583744d-ff6f-4185-bbef-8339c1c308f8_120x@2x.png?v=1614333419">
+                    <br><p id="ftrdesc" >Exotic Flora is a one stop destination for all your gardening needs. If you're a green thumb or a black thumb,
+                        you belong here just as much! Come shop with us, and let us play a significant role in accentuating your beautiful space. We can't wait to see you bring Exotic Flora home.
+                        If you've already brought from us then thank you for inviting us home!></p>
+                </td>
+                <td class="footrdata2">
+                       <p id="follwus">Follow Us</p>
+                       <span id="fbfootr"><img id="footrfb" src="fb.png"></span>
+                       <span><img  id="footrig"  src="ig.png"></span>
+                </td>
+            </tr>
+
+
+
+    <div style="text-align: center; font-size: 30px;">ExoticFlora's Favourites</div>
+    <br>
+    <table>
+        <td>
+            <img style="height: 250px; width: 250px; padding: 30px; "  src="sguawa.webp" alt="Strwaberry Guava">
+             <a href="vinewhite.html"><p>Strwaberry Guava</p></a>
+             <p style="background-color: green; width: 150px; text-align: center; color: white">Add to Cart</p>
+            </td>
+        <td>
+            <img style="height: 250px; width: 250px;padding: 30px;" src="miyanzimango.webp" alt="miyazaki Mango">
+            <a href="mysorenesis.html"><p>Miyazaki Mango</p></a>
+            <p style="background-color: green; width: 150px; text-align: center; color: white;">Add to Cart</p>
+        </td>
+        <td>
+            <img style="height: 250px; width: 250px;padding: 30px;" src="blueberry.webp" alt="Blueberry Plant">
+            <a href="cassia.html"><p>Blueberry Plant</p></a>
+            <p style="background-color: green; width: 150px; text-align: center;color: white">Add to Cart</p>
+        </td>
+        <td>
+            <img style="height: 250px; width: 250px;padding: 25px;" alt="Golden Mango" src="https://cdn.shopify.com/s/files/1/2083/6855/products/alphonsomango_720x.jpg?v=1612358490">
+           <a href="alphanso.html"> <p>Golden Mango</p></a>
+           <p style="background-color: green; width: 150px; text-align: center; color: white">Add to Cart</p>
+        </td>
+    </table>
+
+
+
+
+    <div class="ef_footer_08_linkList_row1">
+        <div class="ef_footer_08_linkList_col1">
+          <h4 class="ef_footer_08_linkList-title_row1">INFORMATION</h4>
+          <ul class="ef_footer_08_linkList-list"><li><a href="/pages/about-us">About us</a></li><li><a href="/pages/faqs">FAQ's</a></li><li><a href="/pages/contact-us">Contact Us</a></li><li><a href="https://exoticflora.in/account/login">Login</a></li></ul>
+        </div>
+        <div class="ef_footer_08_linkList_col2">
+          <h4 class="ef_footer_08_linkList-title_row1">CUSTOMER SERVICE</h4>
+          <ul class="ef_footer_08_linkList-list"><li><a href="/pages/about-us">About us</a></li><li><a href="/pages/faqs">FAQ's</a></li><li><a href="/pages/contact-us">Contact Us</a></li><li><a href="https://exoticflora.in/account/login">Login</a></li></ul>
+        </div>
+        <div class="ef_footer_08_linkList_col3">
+          <h4 class="ef_footer_08_linkList-title_row1">MY ACCOUNT</h4>
+          <ul class="ef_footer_08_linkList-list"><li><a href="https://exoticflora.in/account/register">Sign In</a></li><li><a href="https://exoticflora.in/cart">View Cart</a></li><li><a href="https://exoticflora.in/pages/wishlist">Wishlist</a></li></ul>
+        </div>
+      </div>
+
+
+
+
+      <footer class="footr">
+        <div class="footr__main">
+        <div>
+            <table class="footr__main--tbl">
+                <tr>
+                    <td class="footrdata1">
+                        <img id="ftrlogo"  src="https://cdn.shopify.com/s/files/1/2083/6855/files/logo_9583744d-ff6f-4185-bbef-8339c1c308f8_120x@2x.png?v=1614333419">
+                        <br><p id="ftrdesc" >Exotic Flora is a one stop destination for all your gardening needs. If you're a green thumb or a black thumb,
+                            you belong here just as much! Come shop with us, and let us play a significant role in accentuating your beautiful space. We can't wait to see you bring Exotic Flora home.
+                            If you've already brought from us then thank you for inviting us home!></p>
+                    </td>
+                    <td class="footrdata2">
+                           <p id="follwus">Follow Us</p>
+                           <span id="fbfootr"><img id="footrfb" src="fb.png"></span>
+                           <span><img  id="footrig"  src="ig.png"></span>
+                    </td>
+                </tr>
+              </table>
+                <span>
+                    <div class="footdata2">Information</div>
+                    <div class="footdata2__sub">
+                    <a>About us</a><br><br>
+                    <a> FAQ's</a><br><br>
+                    <a> Contact Us</a><br><br>
+                    <a>Login</a><br><br>
+                    </div>
+                    </div>
+                </span>
+
+                <span style="padding-left: 1px;">
+                    <div class="footdata2">Customer Service</div>
+                    <div class="footdata2__sub">
+                        <a>About us</a><br><br>
+                        <a> FAQ's</a><br><br>
+                        <a> Contact Us</a><br><br>
+                        <a>Login</a><br><br>
+                    </div>
+
+                </span>
+                <span style="padding-left: 50px;">
+                    <div  class="footdata2">My Account</div>
+                   <div class="footdata2__sub">
+                    <a>Sign IN</a><br><br>
+                    <a> View Cart</a><br><br>
+                    <a> Whishlist</a><br><br>
+                   </div>
+
+
+                </span>
+              </tr>
+              <tr>
+                <td>
+                    <div  class="footdata2">Flowering Plants</div>
+                   <div class="footdata2__sub">
+                    <a>Aquatic Plants</a><br><br>
+                    <a>  Creepers & Climbers</a><br><br>
+                    <a>    Flowering Plants</a><br><br>
+                    <a>   Flowering Shrubs</a><br><br>
+                   </div>
+                   </div>
+                </td>
+
+                <td style="padding-left: 1px;">
+                    <div class="footdata2">Cactus and Bonsai</div>
+                    <a>Bonsai</a><br><br>
+                    <a> Bonsai Starters</a><br><br>
+
+                </td>
+                <td style="padding-left: 50px; ">
+                    <div class="footdata2">Indoor Plants</div>
+                    <a>Office Plants </a><br><br>
+                    <a> Low Maintenance Plants</a><br><br>
+                    <a> Foliage Plants</a><br><br>
+
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <div class="footdata2">Outdoor Plants</div>
+                    <a>Cactus</a><br><br>
+                    <a> Avenue Trees</a><br><br>
+                    <a> Ornamental Shrubs</a><br><br>
+                    <a>Palms</a><br><br>
+                    </div>
+                </td>
+
+                <td style="padding-left: 1px;">
+                    <div class="footdata2">Bonsai</div>
+                    <a>Bonsai</a><br><br>
+                    <a> Bonsai Starters</a><br>
+                </td>
+                <td style="padding-left: 50px;">
+                    <div class="footdata2">Pots and Planters</div>
+                    <a>Ceramic Pots</a><br><br>
+                    <a> Mettalic Pots</a><br>
+                </td>
+            </tr>
+
+
+           <tr>
+            <td>
+                Got Question? Call us 24/7
+                <br>
+                <img style="height: 30px; width:30px" src="wtsp.jpeg"><span> 91-9177805454</span></img>
+            </td>>
+            <td>
+                Payment Method
+            </td>
+            <td>
+                Copyrigaht © 2020 Exotic Flora. All Rights Reserved.
+            </td>
+           </tr>
+        </table>
+        </div>
+        </div>
+    </div>
+
+    </footer>
+</body>
+</html>
+
+<img style="height: 100px; width:100px" src="https://cdn.shopify.com/s/files/1/2083/6855/products/thunbergiamysorensis4_110x110@2x.png?v=1617193054">
+<br>
+<img style="height: 100px; width:100px" src="https://cdn.shopify.com/s/files/1/2083/6855/products/thunbergiamysorensis1_110x110@2x.jpg?v=1617193054">
+<br>
+<img style="height: 100px; width:100px" src="https://cdn.shopify.com/s/files/1/2083/6855/products/thunbergiamysorensis3_110x110@2x.jpg?v=1617193054">
+<br>
+<img style="height: 100px; width:100px" src="https://cdn.shopify.com/s/files/1/2083/6855/products/Thunbergia_mysorensis_110x110@2x.jpg?v=1617193054">
+
+</td>
+<td>
+ <img style="height: 500px; width:400px" src="https://cdn.shopify.com/s/files/1/2083/6855/products/thunbergiamysorensis3.jpg?v=1617193054">
+</td>
+<td style="padding-top: 50px; padding-left: 20px; font-weight: bold; font-size: 25px;">
+ Thunbergia Mysorensis - Creepers & Climbers
+
+ <img style="height: 100px; width:100px" src="https://cdn.shopify.com/s/files/1/2083/6855/products/cassiafistula2_110x110@2x.jpg?v=1638339737">
+ <br>
+ <img style="height: 100px; width:100px" src="https://cdn.shopify.com/s/files/1/2083/6855/products/478765369_1ba2b7df7c_b_110x110@2x.jpg?v=1638339737">
+</td>
+<td>
+  <img style="height: 400px; width:400px" src="https://cdn.shopify.com/s/files/1/2083/6855/products/cassiafistula2_110x110@2x.jpg?v=1638339737">
+</td>
+<td style="padding-top: 50px; padding-left: 20px; font-weight: bold; font-size: 25px;">
+  Cassia Fistula / Indian Laburnum - Avenue Trees

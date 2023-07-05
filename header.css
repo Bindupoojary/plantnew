@@ -1,0 +1,257 @@
+.top-nav{
+    padding-top: 0%;
+    margin-bottom: 0px;
+  }
+
+  .top-nav__logo{
+    height: 60px ;
+    width: 120px;
+    margin-left: 25px;
+    position:absolute;
+    top: 6px;
+    left:14px
+    ;
+
+  }
+
+  #tophr{
+    width: 1170px;
+    margin-left: 35px;
+    color: #b9b5b5;
+  }
+
+
+
+  .top-nav__search
+  {
+    padding-left: 280px;
+  }
+
+  .top__account{
+    height: 25px ;
+    width: 25px;
+    padding-left: 100px;
+  }
+
+  .top__wish{
+    height: 25px ; width: 25px;
+  }
+
+  .top__cart{
+    height: 25px ; width: 25px;
+  }
+
+  .top-nav__cart{
+    position: absolute;
+    right: 32px;
+    top:20px;
+  }
+
+  #cart1{
+    position: absolute;
+    right: 33px;
+    top:47px;
+    font-size: 14px;
+  }
+
+  .top-nav__whish{
+    position: absolute;
+    right: 110px;
+    top:25px;
+
+  }
+
+  #whish1{
+    position: absolute;
+    right: 88px;
+    top:47px;
+    font-size: 14px;
+  }
+
+  .top-nav__user{
+    position: absolute;
+    right: 180px;
+    top:25px;
+  }
+
+  #user1{
+    position: absolute;
+    right: 168px;
+    top:47px;
+    font-size: 14px;
+  }
+
+  .banner{
+    margin-bottom: 8px; margin-top: 3px;
+  }
+
+  .banner__img{
+    width: 1200px;
+    height:430px ;
+  }
+
+  .banner__text{
+    color: rgb(3, 10, 27);
+    left:20%; top:43%;
+  }
+
+  .banner__text-broad-range{
+    font-family: 'Lato', sans-serif;font-size: 43px; font-weight: bold; margin-top: 10px;
+  }
+
+  /* .banner__text div{
+    font-family: 'Lato', sans-serif;font-size: 43px; font-weight: bold; margin-top: 10px;
+  } */
+
+  .banner__text-shopfrom{
+    font-size:14px ;
+    color: #61ab00;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .banner__button{
+    height: 30px; width: 174px;
+    padding-top: 7px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #61ab00;
+    font-size: 14px;
+     text-align: center;
+    color: white;
+     margin-left: 93px;
+     margin-top: 20px;
+     border-radius: 3px;
+
+  }
+
+  .banner__button:hover{
+    background-color: #ffd04d;
+  }
+
+
+
+  .top-nav__search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #706a6a;
+    border-radius: 4px;
+    overflow: hidden;
+    border-color: rgb(35, 36, 38);
+    border-radius: 25px;
+
+
+
+  }
+
+  .top-nav__search-bar input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border: 20px;
+  }
+
+  .top-nav__search-bar button {
+    background-color: #61ab00;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    cursor: pointer;
+    border-color: black;
+  }
+
+  .search-bar button i {
+    font-size: 16px;
+  }
+
+
+
+
+  .dropdown{
+    margin-left: 25px;
+    padding-top:0px ;
+  }
+
+
+  .dropdown ul {
+
+      margin: 0;
+      padding: 0;
+    }
+
+    .dropdown ul {
+
+      margin: 0;
+      padding: 0;
+      font-family: 'Source Sans Pro', sans-serif;
+
+    }
+
+
+    .dropdown ul li {
+      display: inline-block;
+      position: relative;
+    }
+
+    .dropdown ul li a {
+      display: block;
+      padding: 10px 20px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .dropdown ul li:hover > a {
+      background-color: #f2f2f2;
+    }
+
+    .dropdown ul li:hover .dropdown__content {
+      display: block;
+    }
+
+    .dropdown .dropdown__content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown .dropdown__content li {
+      display: block;
+    }
+
+    .dropdown .dropdown__content li a {
+      padding: 10px 20px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .dropdown .dropdown__content li a:hover {
+      background-color: #f2f2f2;
+    }
+
+
+    .banner {
+        background-image: url('/mainbnr.jpeg');
+        background-position: center;
+        background-size: cover;
+        position: relative;
+
+            }
+
+    .banner__img{
+
+    }
+
+    .banner h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(7, 7, 7);
+        text-align: center;
+    }

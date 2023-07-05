@@ -1,0 +1,14 @@
+.ship{
+    width: 1200px;
+}
+
+.ship__data{
+    padding: 35px;
+}
+.ship__data--img{
+    height: 27px; width:27px
+}
+
+.menu-icon{
+    display: none;
+  }

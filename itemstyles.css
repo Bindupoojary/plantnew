@@ -1,0 +1,102 @@
+.row2__img{
+    height: 250px; width: 262px;
+  }
+
+
+  .row2__item--img{
+    height: 250px; width: 262px;
+  }
+
+  .row {
+    display: flex;
+
+  }
+  .row2 {
+    display: flex;
+
+  }
+
+  .row2__txt{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    text-decoration: none;
+
+    margin-bottom: 17px;
+
+  }
+
+  .row2__item--txt{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    text-decoration: none;
+
+    margin-bottom: 17px;
+
+  }
+
+
+
+
+.row2__item p ,span{
+    padding-left: 15px;
+    padding-right: 17px;
+
+  }
+
+  .row2__item {
+    width: 21%;
+    background-color: #ffff;
+    border-color: rgb(229, 222, 222);
+    border-width: .5px;
+    border-style: solid;
+    padding-left: .5px;
+    box-sizing: border-box;
+    flex: 1;
+    margin-left: 35px;
+  }
+
+  .row1{
+    margin-left: 20px;
+    /* margin-bottom: 8px; */
+  }
+
+  .row1__img{
+    height: 270px; width:270px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .row1__text1{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
+  }
+  .row2{
+  margin: 15px;
+  }
+
+
+
+  .row2__cart{
+    background-color: #61ab00 ; width: 210px;
+    text-decoration: none;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    margin-left: 9px;
+
+  }
+
+  .row2__item--cart{
+    background-color: #61ab00 ; width: 210px;
+    text-decoration: none;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    margin-left: 9px;
+
+  }
